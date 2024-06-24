@@ -1,0 +1,24 @@
+{
+  "name": "less-practice",
+  "version": "1.0.0",
+  "description": "Exercício de pratica com LESS",
+  "main": "index.js",
+  "scripts": {
+    "less": "lessc ./src/styles ./build/styles",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hellsccythe/LESS-PRACTICE.git"
+  },
+  "author": "Bruno Eduardo Oliveira Mendes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hellsccythe/LESS-PRACTICE/issues"
+  },
+  "homepage": "https://github.com/Hellsccythe/LESS-PRACTICE#readme",
+  "devDependencies": {
+    "less": "^4.2.0",
+    "less-watch-compiler": "^1.16.3"
+  }
+}
